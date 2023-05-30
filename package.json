@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2"
+  },
+  "name": "babel",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regina-ms/Babel.git"
+  },
+  "author": "Regina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regina-ms/Babel/issues"
+  },
+  "homepage": "https://github.com/regina-ms/Babel#readme",
+  "description": ""
+}
